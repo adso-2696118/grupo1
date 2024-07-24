@@ -2,15 +2,15 @@ body{
     display: flex;
     height: 100%;
 overflow: hidden;
-    background-color: black;
+    background-color: #545454;
 }
  .izquierda{
     width: 60%;
     height: 100vh;
-    background-color: red;
+    background-color: #4a8efa;
 }
  .derecha{
     width: 40%;
     height: 100vh;
-    background-color: yellow;
+    background-color: #adadad;
 }
