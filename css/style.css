@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    height: 100%;
+overflow: hidden;
+    background-color: black;
+}
+ .izquierda{
+    width: 60%;
+    height: 100vh;
+    background-color: red;
+}
+ .derecha{
+    width: 40%;
+    height: 100vh;
+    background-color: yellow;
+}
