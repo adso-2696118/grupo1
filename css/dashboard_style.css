@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 15% 85%;
+}
+
+.container :nth-child(1){
+    grid-row: span 2;
+    background-color: blue;
+}
+
+.container :nth-child(3){
+    background-color: green;
+}
+
+.principal{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 80%;
+}
+
+.principal :nth-child(1){
+    grid-column: span 2;
+    grid-row: 1;
+    background-color: blueviolet;
+}
+
+.principal :nth-child(3){
+    grid-column: 1;
+    grid-row: 2;
+    background-color: violet;
+}

@@ -1,17 +1,25 @@
 body{
     display: flex;
     height: 100%;
-overflow: hidden;
-    background-color: black;
+    background-color: #545454;
+    overflow: git;
 }
  .izquierda{
     width: 60%;
     height: 100vh;
-    background-color: red;
+    background-color: #4a8efa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
+.izquierda .izq__titulo h1{
+    font-size: 50px;
+}
+.izquierda .izq__img img{
+    width: 400px;
+    height: 400px;
+}
  .derecha{
     background-color: #fff;
     padding: 40px;
@@ -88,4 +96,3 @@ body {
   .boton-aceptar:hover {
     background-color: #3e8e41;
   }
-  
