@@ -9,8 +9,83 @@ overflow: hidden;
     height: 100vh;
     background-color: red;
 }
+
+
+
  .derecha{
-    width: 40%;
-    height: 100vh;
-    background-color: yellow;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px ;
+    height: 70vh;
+    width: 60vh;
 }
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #918e8e;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #6cc9f1;
+    color: rgb(31, 30, 30);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .terms {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .mensaje {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    margin: 5px 13vh;
+  }
+  
+  .boton-aceptar {
+    width: 1px;
+    height: 5px;
+    background-color: #8f918f;
+    border-radius: 4px;
+  }
+  
+  .boton-aceptar:hover {
+    background-color: #3e8e41;
+  }
+  
