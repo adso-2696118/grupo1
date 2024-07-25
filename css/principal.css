@@ -30,13 +30,37 @@
     grid-template-rows: 1fr 1fr 1fr;
 }
 .ele2ele1 {
+    display: flex;
     background-color: chocolate;
+    justify-content: left;
+    align-items: center;
+}
+.ele2ele1 > .rect {
+    width: 200px;
+    height: 50px;
+    background-color: red;
 }
 .ele2ele2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     background-color: pink;
 }
+.ele2ele2 > .rect {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
 .ele2ele3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     background-color: chocolate;
+}
+.ele2ele3 > .rect {
+    width: 200px;
+    height: 50px;
+    background-color: red;
 }
 .ele1, .ele3{
     background-color: yellow;
