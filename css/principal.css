@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    background-color: gray;
+}
+.aside {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: red;
+}
+.ele1, .ele3{
+    background-color: yellow;
+}
+.principal {
+    display: grid;
+    grid-template-rows: 10% 20% 70% ;
+}
+.ele1P, .ele3P {
+    background-color: aqua;
+}
+.ele3P {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr ;
+}
+.ele4P {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: blueviolet;
+}
+.ele5P {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+.ele6P {
+    background-color: green;
+}
+.ele8P {
+    background-color: brown;
+}
+.ele9P {
+    background-color: cadetblue;
+}
